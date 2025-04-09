@@ -20,13 +20,13 @@ h1 {
     background-color: antiquewhite;
     border: solid 2px #212427;
 
-    /*deixa o item flexivel */    
+ 
      display: flex; 
-    /*posiciona os itens/espaçamento */
+
     justify-content: start;    
-    /* alinha os itens*/
+    
     align-items: start;
-/* representa a direção pela qual irá seguir */
+    
     flex-direction: line;
 }
 
@@ -47,8 +47,6 @@ h1 {
     justify-content: start;
     align-self:end;
 
-/* modifica apenas o elemento cor2
-é necessário que o elemnto pai seja flex    align-self: flex-start;*/
 }
 
 .cor3 {
